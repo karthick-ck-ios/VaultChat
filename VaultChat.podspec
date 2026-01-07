@@ -12,10 +12,6 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
 
   # ✅ Include all Swift files, exclude documentation
-  s.source_files     = 'VaultChat/**/*.swift'
-  s.exclude_files    = 'VaultChat/VaultChat.docc/**/*'
-
-  # Optional: resources (if you have assets)
-  # s.resources      = 'VaultChat/Assets/**/*'
-
+  s.source_files  = 'VaultChat/**/*.swift'
+  s.exclude_files = 'VaultChat/VaultChat.docc/**/*'
 end
