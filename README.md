@@ -49,7 +49,7 @@ Call initialization inside viewDidLoad, then add the floating button.
         theme: .system,
         buttonContent: "💬",
         buttonType: .text,
-        buttonShape: .square
+        buttonShape: .circle
     )
     self.addVaultChatFloatingButton()
 
