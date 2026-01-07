@@ -36,6 +36,11 @@ buttonType	    .image or .text
 buttonShape	    .circle, .square, etc.
 
 🧭 Usage in UIKit
+Add the import:
+
+    import VaultChat
+    import SwiftUI
+    
 Call initialization inside viewDidLoad, then add the floating button.
 
     VaultChat.initialize(
@@ -50,6 +55,9 @@ Call initialization inside viewDidLoad, then add the floating button.
 
 
 🟣 Usage in SwiftUI
+Add the import:
+
+    import VaultChat
 
 Initialize inside the view init().
 
