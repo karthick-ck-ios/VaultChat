@@ -47,8 +47,8 @@ Call initialization inside viewDidLoad, then add the floating button.
         apiKey: "API-KEY",
         primaryColorHex: "#007AFF",
         theme: .system,
-        buttonContent: "pencil.circle.fill",
-        buttonType: .image,
+        buttonContent: "💬",
+        buttonType: .text,
         buttonShape: .square
     )
     self.addVaultChatFloatingButton()
